@@ -18,11 +18,8 @@ body {
 }
 
 ::selection {
-  background: lighten($primary-color, 36%);
-}
-
-::-moz-selection {
-  background: lighten($primary-color, 36%);
+  background: $gray-darker;
+  color: #FFF;
 }
 
 // ------------------------------

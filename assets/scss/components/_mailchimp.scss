@@ -1,0 +1,35 @@
+// MAILCHIMP FORM
+
+.mc-field-group, .mc-submit, #mce-responses{
+	display: inline-block;
+}
+
+.mc-field-group{
+	input{
+		color: black;
+	}
+	input::-webkit-input-placeholder {
+		   color: $gray-darker;
+		}
+	input:-moz-placeholder { /* Firefox 18- */
+	   color: $gray-darker;
+	}
+
+	input::-moz-placeholder {  /* Firefox 19+ */
+	   color: $gray-darker;
+	}
+
+	input:-ms-input-placeholder {
+	   color: $gray-darker;
+	}
+}
+.mc-submit{
+	input{
+		padding: 10px 20px;
+		border-radius: $border-radius;
+	}
+}
+
+.mailling-instructions{
+	font-size: .9em;
+}
